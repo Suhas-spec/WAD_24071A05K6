@@ -84,6 +84,13 @@
             border: 1px solid #f0d675;
             color: #614a00;
         }
+
+        footer {
+            margin-top: 22px;
+            color: #667085;
+            font-size: 14px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -107,6 +114,8 @@
         <% if (request.getAttribute("message") != null) { %>
             <p class="message"><%= request.getAttribute("message") %></p>
         <% } %>
+
+        <footer>@24071a05k6</footer>
     </main>
 </body>
 </html>
